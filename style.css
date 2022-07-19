@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    width: 1440px;
+    display: contents;
+
+}
+
+.header-1 {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* navgatio bar */
+nav {
+
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+.tittle p {
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 26px;
+    color: black;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 40px;
+
+}
+
+.continer {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 10px 30px 10px;
+}
+
+.div-1 {
+    margin: 30px 20px 10px 30px;
+    padding: 20px 30px 0 25px;
+    width: 582px;
+    height: 270px;
+}
+
+.div-2 {
+    border-radius: 50%;
+    border: 2px solid #F1E4FF;
+    padding: 10px;
+    margin-right: 80px;
+
+}
+
+.div-3 {
+    margin: 10px;
+    border-radius: 70%;
+    background-color: #F1E4Ff;
+
+}
+
+/* logo  */
+.logo {
+    display: flex;
+    width: 1110px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0;
+}
+
+/* collectio  */
+.collections {
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+
+}
+
+.collection {
+    height: 476px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px gray;
+
+}
+
+.collection img {
+    width: 100%;
+}
+
+.collection span {
+    margin-left: 20px;
+}
+
+.course-info span {
+    margin: 0 10px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star-half-stroke {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star-half-stroke {
+
+    color: #FFC014;
+}
+
+.look {
+    margin-top: 20px;
+
+}
+
+.look a {
+    text-decoration: none;
+    text-align: right;
+    color: #E02C6D;
+
+}
+
+/* product / */
+.div-4 {
+    width: 1110px;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.div-4 div {
+    margin: 10px;
+    width: 50%;
+    background-size: cover;
+    padding: 20px 10px;
+    text-align: left;
+    margin-bottom: 40px;
+
+
+}
+
+.div-4 img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+footer {
+    background-color: black;
+    height: 239px;
+    padding-top: 40px;
+}
+
+.foot-1 {
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.foot-2 {
+    text-align: center;
+}
+
+.icon1 {
+    font-size: 20px;
+    padding-right: 10px
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-globe,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+}
+
+@media only screen and (max-width:360px) {
+    .body {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+}
